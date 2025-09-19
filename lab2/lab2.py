@@ -1,3 +1,4 @@
+import unittest
 def diap(d1,d2):
     massive = []
     for i in range(min(d1,d2), max(d1,d2)+1):
@@ -18,8 +19,8 @@ def find(key, mass):
             else:
                 right = mid
 
-number = int(input('введите число '))
-dd1 = int(input('1 граница интервала '))
-dd2 = int(input('2 граница интервала '))
-diapp = diap(dd1,dd2)
-print(find(number, diapp))
+# number = int(input('введите число '))
+# dd1 = int(input('1 граница интервала '))
+# dd2 = int(input('2 граница интервала '))
+# diapp = diap(dd1,dd2)
+# print(find(number, diapp))
